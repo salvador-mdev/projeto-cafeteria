@@ -1,0 +1,51 @@
+html {
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    min-height: 75px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container .logo {
+    margin: 20px 20px;
+}
+
+.header .container .logo {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.header .container .logo:hover {
+    color: gold;
+}
+
+.container ul {
+    display: flex;
+}
+
+.container ul li a {
+    font-size: 20px;
+    transition: 0.3s;
+    padding: 3px 10px;
+    border-radius: 10px;
+
+}
+
+.container ul li a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.container-hero {
+    
+}
