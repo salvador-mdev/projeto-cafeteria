@@ -120,6 +120,10 @@ html {
     .hero .container-hero .texto a {
         font-size: 12px;
     }
+
+    .hero .container-hero .texto {
+        padding: 30px 0 0 30px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -128,6 +132,16 @@ html {
     }
 
     .hero .container-hero .texto {
-        padding: 30px 0 0 30px;
+        padding: 20px 0 0 20px;
     }
+
+    .hero .container-hero .texto p {
+        width: 300px;
+    }    
+}
+
+@media (max-width: 320px) {
+    .hero .container-hero .texto p {
+        width: 250px;
+    }    
 }
