@@ -54,6 +54,8 @@ html {
     color: gold;
 }
 
+/* SECTION HERO */
+
 .hero .container-hero {
     background-image: url(../images/banner-bg.png);
     width: 100%;
@@ -94,8 +96,9 @@ html {
 }
 
 .hero .container-hero .texto a:hover {
-    color: gold;
-    border: 1px solid gold;
+    background-color: gold;
+    color: #000;
+    font-weight: 500;
 }
 
 @media (max-width: 850px) {
@@ -144,4 +147,54 @@ html {
     .hero .container-hero .texto p {
         width: 250px;
     }    
+}
+
+/* SECTION ABOUT */
+
+.about .container {
+    display: flex;
+    padding: 80px 30px 0 30px;
+}
+
+.about .container .informacoes {
+    max-width: 50%;
+    padding: 100px 10px 0 50px;
+}
+
+.about .container .informacoes h1 {
+    color: gold;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about .container .informacoes p {
+    color: #4c4c4b;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.about .container .informacoes p:nth-child(3) {
+    padding-bottom: 40px;
+}
+
+.about .container .informacoes a {
+    padding: 8px 28px;
+    font-size: 18px;
+    background-color: #252525;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+.about .container .informacoes a:hover {
+    background-color: gold;
+    color: #000;
+    font-weight: 500;
+}
+
+.about .container .image {
+    padding: 0 50px;
+    max-width: 540px;
+    max-height: 540px;
 }
