@@ -1,0 +1,95 @@
+/* SECTION HERO */
+
+.hero .container-hero {
+    background-image: url(../images/banner-bg.png);
+    width: 100%;
+    background-size: cover;
+    height: 486px;
+    background-repeat: no-repeat;
+}
+
+.hero .container-hero .texto {
+    padding: 60px 0 0 60px;
+    color: #fff;
+}
+
+.hero .container-hero .texto h2 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero .container-hero .texto h2:first-child {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.hero .container-hero .texto p {
+    width: 350px;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.hero .container-hero .texto a {
+    font-size: 14px;
+    padding: 15px 25px;
+    background-color: black;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.hero .container-hero .texto a:hover {
+    background-color: gold;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: 500;
+}
+
+@media (max-width: 850px) {
+    .hero .container-hero {
+        background-image: url(../images/banner-bg-tablet.png);
+    }
+}
+
+@media (max-width: 425px) {
+    .hero .container-hero .texto h2 {
+        font-size: 60px;
+    }
+
+    .hero .container-hero .texto h2:first-child {
+        font-size: 50px;
+    }
+
+    .hero .container-hero .texto p {
+        font-size: 14px;
+    }
+
+    .hero .container-hero .texto a {
+        font-size: 12px;
+    }
+
+    .hero .container-hero .texto {
+        padding: 30px 0 0 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header .container .logo {
+        font-size: 30px;
+    }
+
+    .hero .container-hero .texto {
+        padding: 20px 0 0 20px;
+    }
+
+    .hero .container-hero .texto p {
+        width: 300px;
+    }    
+}
+
+@media (max-width: 320px) {
+    .hero .container-hero .texto p {
+        width: 250px;
+    }    
+}
