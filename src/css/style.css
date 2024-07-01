@@ -98,6 +98,7 @@ html {
 .hero .container-hero .texto a:hover {
     background-color: gold;
     color: #000;
+    border: 1px solid #000;
     font-weight: 500;
 }
 
@@ -154,11 +155,13 @@ html {
 .about .container {
     display: flex;
     padding: 80px 30px 0 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .about .container .informacoes {
     max-width: 50%;
-    padding: 100px 10px 0 50px;
+    padding: 50px 10px 0 50px;
 }
 
 .about .container .informacoes h1 {
@@ -180,16 +183,18 @@ html {
 }
 
 .about .container .informacoes a {
-    padding: 8px 28px;
+    padding: 10px 25px;
     font-size: 18px;
     background-color: #252525;
     margin-top: 40px;
     transition: 0.3s;
+    text-transform: uppercase;
 }
 
 .about .container .informacoes a:hover {
     background-color: gold;
     color: #000;
+    border: 1px solid #000;
     font-weight: 500;
 }
 
@@ -197,4 +202,443 @@ html {
     padding: 0 50px;
     max-width: 540px;
     max-height: 540px;
+}
+
+@media (max-width: 768px) {
+    .about .container {
+        flex-direction: column;
+        max-width: 768px;
+        padding-top: 40px;
+    }
+
+    .about .container .informacoes {
+        max-width: 580px;
+        padding: 50px 20px 0 20px;
+    }
+    .about .container .image {
+        padding-top: 30px 0 0 0;
+    }
+
+    .about .container .image {
+        padding: 30px 0 0 0;
+    }
+
+    .item5 {
+        order: -1;
+    }   
+}
+
+/* SECTION GALERIA */
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-areas: "informacoes-grid informacoes-grid informacoes-grid" "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 250px 250px 250px;
+    grid-gap: 30px; 
+    padding: 90px 90px 30px 90px;
+}
+
+.informacoes-grid {
+    grid-area: informacoes-grid;
+}
+
+.informacoes-grid h2 {
+    color: gold;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.informacoes-grid p {
+    color: #4c4c4b;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.foto1 {
+    grid-area: foto1;
+    background-image: url(../images/img-1.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto1::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto1:hover::before {    
+    opacity: 0.5;
+}
+
+.foto1::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto1:hover::after{
+    opacity: 0.8;
+}
+
+.foto2 {
+    grid-area: foto2;
+    background-image: url(../images/img-2.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto2::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto2:hover::before {    
+    opacity: 0.5;
+}
+
+.foto2::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto2:hover::after{
+    opacity: 0.8;
+}
+
+.foto3 {
+    grid-area: foto3;
+    background-image: url(../images/img-3.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto3::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto3:hover::before {    
+    opacity: 0.5;
+}
+
+.foto3::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto3:hover::after{
+    opacity: 0.8;
+}
+
+.foto4 {
+    grid-area: foto4;
+    background-image: url(../images/img-4.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto4::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto4:hover::before {    
+    opacity: 0.5;
+}
+
+.foto4::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto4:hover::after{
+    opacity: 0.8;
+}
+
+
+.foto5 {
+    grid-area: foto5;
+    background-image: url(../images/img-5.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto5::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto5:hover::before {    
+    opacity: 0.5;
+}
+
+.foto5::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto5:hover::after{
+    opacity: 0.8;
+}
+
+.foto6 {
+    grid-area: foto6;
+    background-image: url(../images/img-6.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto6::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto6:hover::before {    
+    opacity: 0.5;
+}
+
+.foto6::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto6:hover::after{
+    opacity: 0.8;
+}
+
+.foto7 {
+    grid-area: foto7;
+    background-image: url(../images/img-7.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto7::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto7:hover::before {    
+    opacity: 0.5;
+}
+
+.foto7::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto7:hover::after{
+    opacity: 0.8;
+}
+
+.foto8 {
+    grid-area: foto8;
+    background-image: url(../images/img-8.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto8::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto8:hover::before {    
+    opacity: 0.5;
+}
+
+.foto8::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto8:hover::after{
+    opacity: 0.8;
+}
+
+
+.foto9 {
+    grid-area: foto9;
+    background-image: url(../images/img-9.png);
+    background-size: cover;
+    transition: 0.3s;
+    position: relative;
+}
+
+.foto9::before{    
+    content: '';
+    background-color: rgb(254, 230, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto9:hover::before {    
+    opacity: 0.5;
+}
+
+.foto9::after{
+    content: '';
+    background: url(../images/icon2.png) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.foto9:hover::after{
+    opacity: 0.8;
+}
+
+/* .gallery .btn {
+    max-width: 220px;
+} */
+
+.gallery a {
+    padding: 10px 25px;
+    font-size: 18px;
+    background-color: #252525;
+    margin-top: 20px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.gallery a:hover {
+    background-color: gold;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .gallery .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-areas: "informacoes-grid informacoes-grid" "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 .";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 120px 250px 250px 250px 250px 250px;
+    }
+}
+
+@media (max-width: 650px) {
+    .gallery .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-areas: "informacoes-grid" "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9";
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
+    }
+}
+
+@media (max-width: 510px) {
+    .gallery .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-areas: "informacoes-grid" "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9";
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
+    }
 }
