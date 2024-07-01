@@ -1,7 +1,59 @@
 /* SECTION TESTIMONIALS */
 
 .testimonials .container {
-    width: 100%;
-    height: 700px;
-    background-color: aqua;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 80px;
+}
+
+.testimonials .container .informacoes h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+}
+
+.testimonials .container p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.testimonials .container .testemunhas {
+    display: flex;
+    max-height: 500px;
+}
+
+.testimonials .container .testemunhas h2 {
+    padding-bottom: 15px;
+}
+
+.testimonials .container .testemunhas .testemunho1, .testimonials .container .testemunhas .testemunho2, .testimonials .container .testemunhas .testemunho3 {
+    flex: 1 1 0;
+    border: solid 2px gold;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.testimonials .container .testemunhas .testemunho1, .testimonials .container .testemunhas .testemunho3 {
+    margin-bottom: 150px;
+}
+
+.testimonials .container .testemunhas .testemunho2:nth-child(2) {
+    margin: 150px 25px 0 25px;
+
+}
+
+@media (max-width: 900px) {
+    .testimonials .container .testemunhas {
+        flex-direction: column;
+    }
+
+    .testimonials .container .testemunhas .testemunho1, .testimonials .container .testemunhas .testemunho3 {
+        margin: 30px 0;
+    }
+    
+    .testimonials .container .testemunhas .testemunho2:nth-child(2) {
+        margin: 30px 0;
+    
+    }    
 }
