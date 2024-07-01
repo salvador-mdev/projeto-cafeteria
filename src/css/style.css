@@ -105,7 +105,7 @@ html {
 @media (max-width: 850px) {
     .hero .container-hero {
         background-image: url(../images/banner-bg-tablet.png);
-}
+    }
 }
 
 @media (max-width: 425px) {
@@ -556,7 +556,6 @@ html {
     opacity: 0.8;
 }
 
-
 .foto9 {
     grid-area: foto9;
     background-image: url(../images/img-9.png);
@@ -592,10 +591,6 @@ html {
 .foto9:hover::after{
     opacity: 0.8;
 }
-
-/* .gallery .btn {
-    max-width: 220px;
-} */
 
 .gallery a {
     padding: 10px 25px;
