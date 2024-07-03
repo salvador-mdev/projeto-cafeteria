@@ -39,7 +39,7 @@
 
 .foto1 {
     grid-area: foto1;
-    background-image: url(../images/img-1.png);
+    background-image: url(../images/img-1.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;
@@ -75,7 +75,7 @@
 
 .foto2 {
     grid-area: foto2;
-    background-image: url(../images/img-2.png);
+    background-image: url(../images/img-2.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;
@@ -111,7 +111,7 @@
 
 .foto3 {
     grid-area: foto3;
-    background-image: url(../images/img-3.png);
+    background-image: url(../images/img-3.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;
@@ -147,7 +147,7 @@
 
 .foto4 {
     grid-area: foto4;
-    background-image: url(../images/img-4.png);
+    background-image: url(../images/img-4.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;
@@ -184,7 +184,7 @@
 
 .foto5 {
     grid-area: foto5;
-    background-image: url(../images/img-5.png);
+    background-image: url(../images/img-5.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;
@@ -220,7 +220,7 @@
 
 .foto6 {
     grid-area: foto6;
-    background-image: url(../images/img-6.png);
+    background-image: url(../images/img-6.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;
@@ -256,7 +256,7 @@
 
 .foto7 {
     grid-area: foto7;
-    background-image: url(../images/img-7.png);
+    background-image: url(../images/img-7.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;
@@ -292,7 +292,7 @@
 
 .foto8 {
     grid-area: foto8;
-    background-image: url(../images/img-8.png);
+    background-image: url(../images/img-8.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;
@@ -328,7 +328,7 @@
 
 .foto9 {
     grid-area: foto9;
-    background-image: url(../images/img-9.png);
+    background-image: url(../images/img-9.webp);
     background-size: cover;
     transition: 0.3s;
     position: relative;

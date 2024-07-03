@@ -1,7 +1,7 @@
 /* SECTION HERO */
 
 .hero .container-hero {
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.webp);
     width: 100%;
     background-size: cover;
     height: 486px;
@@ -48,7 +48,7 @@
 
 @media (max-width: 850px) {
     .hero .container-hero {
-        background-image: url(../images/banner-bg-tablet.png);
+        background-image: url(../images/banner-bg-tablet.webp);
     }
 }
 
