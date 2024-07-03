@@ -3,7 +3,7 @@
 .testimonials .container {
     max-width: 100%;
     max-height: 100%;
-    padding: 80px;
+    padding: 60px;
 }
 
 .testimonials .container .informacoes h2 {
@@ -20,7 +20,7 @@
 
 .testimonials .container .testemunhas {
     display: flex;
-    max-height: 500px;
+    max-height: 100%;
 }
 
 .testimonials .container .testemunhas h2 {
@@ -91,6 +91,5 @@
     
     .testimonials .container .testemunhas .testemunho2:nth-child(2) {
         margin: 30px 0;
-    
     }    
 }

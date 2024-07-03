@@ -21,7 +21,7 @@
     transition: 0.3s;
 }
 
-.header .container .logo:hover {
+.container .logo:hover {
     color: gold;
 }
 
@@ -35,7 +35,6 @@
     transition: 0.3s;
     padding: 3px 10px;
     border-radius: 10px;
-
 }
 
 .container ul li a:hover {
