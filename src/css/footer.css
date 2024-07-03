@@ -8,17 +8,10 @@
     padding: 60px 60px 60px 30px;
 }
 
-/* .footer .container-footer .footer-menu,
-.footer .container-footer .contact,
-.footer .container-footer .about {
-    padding: 0 30px;
-} */
-
 .footer .container-footer .contact {
     padding: 0 30px;
     grid-area: contact;
 }
-
 
 .footer .container-footer .footer-menu {
     /* max-width: 100%; */
@@ -42,10 +35,6 @@
 .footer .container-footer .footer-menu ul li a:hover {
     color: gold;
     font-weight: 300;
-}
-
-.footer .container-footer .contact {
-    /* max-width: 100%; */
 }
 
 .footer .container-footer h2 {
@@ -79,7 +68,7 @@
     .footer .container-footer {
         grid-template-areas: "footer-menu contact" "about about";
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 1fr 120px;
     }
 
     .footer .container-footer .about {
