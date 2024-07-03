@@ -10,7 +10,7 @@
     margin-bottom: 20px;
     font-size: 40px;
     font-weight: bold;
-    color: gold;
+    color: var(--cor-primaria);
 }
 
 .testimonials .container p {
@@ -33,7 +33,6 @@
 .testimonials .container .testemunhas .testemunho2,
 .testimonials .container .testemunhas .testemunho3 {
     flex: 1 1 0;
-    /* border: solid 1px gold; */
     border-radius: 10px;
     padding: 15px;
     transition: 0.3s;
@@ -54,7 +53,7 @@
 
 .testimonials .container .testemunhas .fas.fa-quote-left {
     font-size: 20px;
-    color: gold;
+    color: var(--cor-primaria);
 }
 
 .testimonials .container .testemunhas .testemunho1,
@@ -92,4 +91,10 @@
     .testimonials .container .testemunhas .testemunho2:nth-child(2) {
         margin: 30px 0;
     }    
+}
+
+@media (max-width: 350px) {
+    .testimonials .container {
+        padding: 60px 30px;
+    }
 }

@@ -22,7 +22,7 @@
 }
 
 .container .logo:hover {
-    color: gold;
+    color: var(--cor-primaria);
 }
 
 .container ul {
@@ -38,7 +38,7 @@
 }
 
 .container ul li a:hover {
-    color: gold;
+    color: var(--cor-primaria);
 }
 
 .header .container nav {
@@ -46,5 +46,5 @@
 }
 
 .header .container nav ul li #home{
-    color: gold;
+    color: var(--cor-primaria);
 }

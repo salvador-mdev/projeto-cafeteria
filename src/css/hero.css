@@ -34,13 +34,13 @@
 .hero .container-hero .texto a {
     font-size: 14px;
     padding: 15px 25px;
-    background-color: black;
+    background-color: var(--cor-secundaria);
     text-transform: uppercase;
     transition: 0.3s;
 }
 
 .hero .container-hero .texto a:hover {
-    background-color: gold;
+    background-color: var(--cor-primaria);
     color: #000;
     border: 1px solid #000;
     font-weight: 500;

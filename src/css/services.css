@@ -19,9 +19,13 @@
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .services .informacoes p {
+    display: inline-block;
+    max-width: 900px;
+    text-align: center;
     font-size: 16px;
     padding-bottom: 40px;
 }
@@ -29,7 +33,7 @@
 .services .cards .card {
     max-width: 290px;
     max-height: 260px;
-    background-color: gold;
+    background-color: var(--cor-primaria);
     padding: 40px 15px;
     text-align: center;
     color: #000;
@@ -57,7 +61,7 @@
     padding: 10px 25px;
     text-align: center;
     font-size: 18px;
-    background-color: #252525;
+    background-color: var(--cor-secundaria);
     margin-top: 25px;
     transition: 0.3s;
     text-transform: uppercase;
@@ -87,6 +91,9 @@
 }
 
 @media (max-width: 768px) {
+    .services .informacoes p {
+        max-width: 500px;
+    }
     .services .cards {
         display: flex;
         flex-direction: column;

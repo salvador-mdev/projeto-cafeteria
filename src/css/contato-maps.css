@@ -1,0 +1,91 @@
+.contato-maps {
+    display: flex;
+    width: 100%;
+}
+
+.contato-maps .contato {
+    background-image: url(../images/img-3.png);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato-maps .contato .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contato-maps .contato h2 {
+    padding: 30px;
+    text-transform: uppercase;
+    color: var(--cor-primaria);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contato-maps .contato p {
+    text-align: center;
+    padding: 0 25px 25px 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contato-maps .contato .input-text {
+    margin: 20px 50px;
+    width: 400px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.contato-maps .contato .btn {
+    width: 150px;
+    background-color: var(--cor-primaria);
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 50px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.contato-maps .contato .btn:hover {
+    background-color: coral;
+    color: #fff;
+}
+
+.contato-maps .contato, .map {
+    width: 50%;
+}
+
+@media (max-width: 900px) {
+    .contato-maps {
+        flex-direction: column;
+    }
+
+    .contato-maps .contato, .map {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .contato-maps .contato .input-text {
+        width: 300px;
+    }
+
+    .contato-maps .contato .btn {
+        width: 120px;
+    }
+}
+
+@media (max-width: 375px) {
+    .contato-maps .contato .input-text {
+        width: 250px;
+    }
+}

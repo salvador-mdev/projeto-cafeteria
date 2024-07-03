@@ -13,7 +13,7 @@
 }
 
 .about .container .informacoes h1 {
-    color: gold;
+    color: var(--cor-primaria);
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -33,14 +33,14 @@
 .about .container .informacoes a {
     padding: 10px 25px;
     font-size: 18px;
-    background-color: #252525;
+    background-color: var(--cor-secundaria);
     margin-top: 40px;
     transition: 0.3s;
     text-transform: uppercase;
 }
 
 .about .container .informacoes a:hover {
-    background-color: gold;
+    background-color: var(--cor-primaria);
     color: #000;
     border: 1px solid #000;
     font-weight: 500;
