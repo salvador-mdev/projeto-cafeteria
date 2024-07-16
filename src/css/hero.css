@@ -1,7 +1,7 @@
 /* SECTION HERO */
 
 .hero .container-hero {
-    background-image: url(../images/banner-bg.webp);
+    background: url(../images/banner-bg.webp) right top;
     width: 100%;
     background-size: cover;
     height: 486px;
