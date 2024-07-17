@@ -406,6 +406,10 @@
         grid-template-columns: 1fr;
         grid-template-rows: 180px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
     }
+
+    .gallery .container {
+        padding: 40px 20px 20px 20px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -414,11 +418,7 @@
         display: grid;
         grid-template-areas: "informacoes-grid" "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9";
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
-    }
-    
-    .gallery .container {
-        padding: 90px 60px 30px 60px;
+        grid-template-rows: 160px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
     }
 }
 
@@ -428,6 +428,6 @@
         display: grid;
         grid-template-areas: "informacoes-grid" "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9";
         grid-template-columns: 1fr;
-        grid-template-rows: 250px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
+        grid-template-rows: 200px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
     }
 }

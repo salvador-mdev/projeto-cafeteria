@@ -71,10 +71,15 @@
 .services .cards {
     display: flex;
     justify-content: center;
+    
 }
 
 .services .cards .card2 {
     margin: 0 20px;
+}
+
+.services .cards .card {
+    transition: 0.3s ease-in-out;
 }
 
 .services .cards .card:hover {

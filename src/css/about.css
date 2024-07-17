@@ -75,3 +75,20 @@
         order: -1;
     }   
 }
+
+@media (max-width: 550px) {
+    .about .container .informacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .container .informacoes p {
+        text-align: center;
+    }
+
+    .about .container .informacoes a {
+        margin-top: 0;
+    }
+}
