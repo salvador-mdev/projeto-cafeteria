@@ -79,11 +79,11 @@
     }
 
     .header nav ul{
-        width: 200px;
+        width: 150px;
         background-color: #fff;
         border: solid 1px #000;
         border-radius: 5px;
-        padding: 20px 40px;
+        padding: 20px 0;
     }
 
     .header nav ul a {
