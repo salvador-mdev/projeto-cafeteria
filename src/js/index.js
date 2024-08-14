@@ -35,7 +35,7 @@ window.sr = ScrollReveal();
     distance: '-300px'
   });
 
-  sr.reveal('.about', {
+  sr.reveal('.about-animation', {
     duration: 3500,
     origin: 'top',
     distance: '-300px'
